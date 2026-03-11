@@ -18,7 +18,6 @@ html, body {
     background-position: center;
     background-repeat: no-repeat;
     font-size: 19px;
-    overflow-y: hidden;
     line-height: 1.6;
 }
 h1 {
@@ -316,4 +315,5 @@ footer{
     .hero button{
         width: 80%;
     }
+
 }
