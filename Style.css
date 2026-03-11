@@ -1,0 +1,319 @@
+html {
+    scroll-behavior: smooth;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Arial, Helvetica, sans-serifht;
+}
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 2;
+    font-family: Arial, Helvetica, sans-serif;
+    scroll-behavior: smooth;
+    background-image: url("images/fy\ \(1\).png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-size: 19px;
+    overflow-y: hidden;
+    line-height: 1.6;
+}
+h1 {
+    font-size: 45px;
+}
+h2 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 16px;
+    color:#140c23;
+    text-align: center;
+}
+ul {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 16px;
+    text-align: left;
+}
+.Fy {
+        margin: 50px 0px;
+        padding: 5px;
+        border-radius: 30px;
+        margin-left: 20px;
+        margin-right: 400px;
+    }
+.SAHY {
+    margin-left: 90px;
+}
+.section {
+    width: 100%;
+    margin-bottom: 60px;
+    scroll-margin-top: 80px;
+    padding: 50px 20px;
+    max-width: 1200px;
+    margin: 0 auto 60px auto;
+    min-height: 100vh;
+}
+header {
+    background-image: url("images/bg.jpg.png");
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    color: blanchedalmond;
+    text-align: center;
+    padding: 10px 20px;
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    border-radius: 30px;
+    margin: 0 auto;
+}
+.profile {
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid #140c23;
+    margin-right: 500px;
+}
+nav a {
+    color: white;
+    margin: 10px;
+    text-decoration: navy;
+}
+.skill {
+    margin-bottom: 20px;
+}
+.bar {
+    background: #ddd;
+    height: 10px;
+    border-radius: 30px;
+}
+.progress {
+    height: 10px;
+    border-radius: 30px;
+}
+
+.html { width: 90; background-color: #282bf4;}
+.css { width: 85; background-color: #5606e0;}
+.js { width: 70; background: scroll;}
+
+.project-card {
+    background-blend-mode: normal;
+    padding: 20px;
+    border-radius: 10px;
+    transition: transition 0,3s ease;
+}
+.project-card:hover {
+    transform: scale(1,05);
+}
+form input, form textarea {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+button {
+    padding: 10px 20px;
+    border-color: darkgoldenrod;
+    cursor: pointer;
+}
+footer {
+    text-align: center;
+    padding: 2px;
+    background: #110505;
+    color: antiquewhite;
+}
+.dark {
+    background: #111;
+    color: #5c04a9;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #222;
+    color: antiquewhite;
+    padding: 15px 30px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    border-radius: 30px;
+    font-size: 20px;
+    scroll-behavior: smooth;
+}
+.navbar ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+.navbar ul li{
+    margin: 0px 10px;
+}
+.navbar a{
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+.navbar a:hover{
+    color:#282bf4
+}
+body {
+    background-color: white;
+    color: black;
+    transition: 0.4s;
+}
+.dark-mode {
+    background-color: #140c23;
+    color: white;
+}
+.darkbtn{
+    background: black;
+    border: #140c23;
+    color: rgb(249, 210, 210);
+    font-size: 20px;
+    cursor: pointer;
+}
+.dark:hover{
+    transform: scale(1.1);
+}
+.hero{
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    animation: fadeIn 1.5s;
+}
+.here span{
+    color:#5c04a9;
+}
+.hero button{
+    margin-top: 15px;
+    padding: 10px 20px;
+    cursor: pointer;
+    background: #5606e0;
+    color: antiquewhite;
+    border: #222;
+    border-radius: 30px;
+    transition: 0.4s;
+}
+.hero button:hover{
+    background: #007b9c;
+}
+.card{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    border: 2px solid #0b0d63;
+    border-radius: 30px;
+    padding: 40px;
+    margin: 60px autofill;
+    max-width: 1200px;
+    font-size: 1rem;
+    background-color: antiquewhite;
+    box-shadow: 0 8px 20px;
+    text-align: center;
+    animation: fadeInUp 1s ease;
+}
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.skill {
+    background: #6163f9;
+    color: #0a080e;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 30px;
+    transition: 0.4s;
+}
+.skill:hover{
+    transform: scale(1.1);
+}
+.projets{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.projet{
+    background: #eee;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 30px;
+    width: 200px;
+    transition: 0.4s;
+    max-width: 300px;
+}
+.projet:hover{
+    transform: scale(1.05);
+}
+.icons{
+    margin-top: 20px;
+}
+.icons a{
+    font-size: 40px;
+    margin: 10px;
+    color: #045bf0;
+    transition: 0.4s;
+}
+.icons a:hover{
+    color: #282bf4;
+    transform: scale(1.3);
+}
+.btn.download{
+    display: flex;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background: #1c0eb4;
+    color: #111;
+    text-decoration: none;
+    border-radius: 30px;
+    transition: 0.4s;
+}
+.btn.download:hover{
+    background: #007b9c;
+    transform: scale(1.1);
+}
+footer{
+    background: #0a080e;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+.dark{
+    background: #121122;
+    color: white;
+}
+.dark .card{
+    background: #1c0eb4;
+}
+.dark nav{
+    background: black;
+}
+@keyframes fadeIn{
+    from{opacity: 0;}
+    to{opacity: 1;}
+}
+@keyframes fadeInUp{
+    from{opacity: 0;
+    transform: translateY(20px);}
+    to{opacity:1; transform: translateY(0);}
+}
+@media(max-width:768px){
+    .navbar ul{
+        flex-direction: column;
+    }
+    .projets{
+        flex-direction: column;
+        align-items: center;
+    }
+    .hero button{
+        width: 80%;
+    }
+}
